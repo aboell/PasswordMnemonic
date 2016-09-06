@@ -24,15 +24,15 @@ The algorithm is very simple; extract the first letter from the phrase to create
 ## Usage Example
 
 ### Input phrase
-	`This password is better than your last password by a long shot`
+`This password is better than your last password by a long shot`
 
 ### Output generated
-	Suggested Password|Password Strength|Length|
-	---|---|---
-	Tpibtylpbals|**OK**|12
-	Tpibty1pba1s|**Strong**|12
-	Tp!btylpb@l$|**Strong**|12
-	Tp!bty1pb@1$|**Very Strong**|12
+Suggested Password|Password Strength|Length|
+---|---|---
+`Tpibtylpbals`|**OK**|12
+`Tpibty1pba1s`|**Strong**|12
+`Tp!btylpb@l$`|**Strong**|12
+`Tp!bty1pb@1$`|**Very Strong**|12
 
 ## Other
 
