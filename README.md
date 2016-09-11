@@ -23,6 +23,7 @@ The algorithm is very simple; extract the first letter from the phrase to create
 
 ## Strength Scale
 **Default Password Strength Scale**
+
 Length
 * Weak < 8
 * OK 8 or 9
