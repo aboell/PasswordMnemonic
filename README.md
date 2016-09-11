@@ -21,6 +21,9 @@ Provide a phrase that will be used to generate a password.  The password is then
 
 The algorithm is very simple; extract the first letter from the phrase to create a password.  Then modify the password with character substitutions to show the user variations and how it impacts the strength of the password.
 
+## Strength Scale
+![Password Strength Matrix](/PasswordStrengthMatrix.jpg)
+
 ## Usage Example
 
 ### Input phrase
