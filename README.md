@@ -22,7 +22,26 @@ Provide a phrase that will be used to generate a password.  The password is then
 The algorithm is very simple; extract the first letter from the phrase to create a password.  Then modify the password with character substitutions to show the user variations and how it impacts the strength of the password.
 
 ## Strength Scale
+**Default Password Strength Scale**
+Length
+* Weak < 8
+* OK 8 or 9
+* Strong 10 or 11
+* Very Strong > 11
+
+Character Classifications
+* List of Character Classifications
+	* Lower Case - a, b, c, etc.
+	* Upper Case - A, B, C, etc.
+	* Numbers - 1, 2, 3, etc.
+	* Special Characters - ~ ` ! # $ % \ ^ & * + = - [ ] ' ; , / { } | " : < > ?
+* Weak - 1 character classification
+* OK - 2 character classifications
+* Strong - 3 character classifications
+* Very Strong - 4 character classifications
+
 ![Password Strength Matrix](/PasswordStrengthMatrix.JPG)
+
 
 ## Usage Example
 
